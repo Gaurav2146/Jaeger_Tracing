@@ -1,0 +1,43 @@
+{
+  "name": "node_testing_servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.0",
+    "node-fetch": "^2.6.11",
+    "nodemon": "^2.0.22",
+    "zipkin": "^0.22.0",
+    "zipkin-context-cls": "^0.22.0",
+    "zipkin-instrumentation-express": "^0.22.0",
+    "zipkin-instrumentation-fetch": "^0.22.0",
+    "zipkin-transport-http": "^0.22.0"
+  },
+  "devDependencies": {
+    "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.36.6",
+    "@opentelemetry/exporter-collector": "^0.25.0",
+    "@opentelemetry/exporter-jaeger": "^1.13.0",
+    "@opentelemetry/instrumentation": "^0.39.0",
+    "@opentelemetry/plugin-express": "^0.15.0",
+    "@opentelemetry/plugin-http": "^0.18.2",
+    "@opentelemetry/propagator-ot-trace": "^0.26.2",
+    "@opentelemetry/resources": "^1.13.0",
+    "@opentelemetry/sdk-node": "^0.39.0",
+    "@opentelemetry/sdk-trace-base": "^1.13.0",
+    "@opentelemetry/sdk-trace-node": "^1.13.0",
+    "@opentelemetry/semantic-conventions": "^1.13.0",
+    "@opentelemetry/tracing": "^0.24.0"
+  }
+}
